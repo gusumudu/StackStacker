@@ -1,0 +1,12 @@
+<div id="board"></div>
+
+<% content_for :javascript_footer do %>
+<script>
+  var board = new Stackstacker.Models.Board({id: <%= @board.id %>});
+  board.fetch({
+    success: function() {
+      new Stackstacker.Views.BoardsShow({ model: board });
+    }
+  });
+</script>
+<% end %>

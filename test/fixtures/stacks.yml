@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  postion: 1
+  board_id: 1
+
+two:
+  name: MyString
+  postion: 1
+  board_id: 1
