@@ -10,10 +10,49 @@
 //   z-index: -1;
 //   background-color: black;
 // }
+.navbar {
+  background-color: #1AD6FD;
+  // margin-bottom: 10px;
+  // border-bottom: 10px;
+}
+
+// .contianer {
+//   color: #FF9500;
+// }
+
+.navbar-header {
+  margin: 10px 0px 10px 0px;
+  // color: #FF9500;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:-webkit-any-link {
+  text-decoration:none;
+  background-color: transparent;
+}
+a:link {
+  text-decoration:none;
+  background-color: none;}
+a:visited {text-decoration:none;
+background-color: none;}
+a:hover {text-decoration:underline;
+background-color: none;}
+a:active {text-decoration:underline;
+background-color: none;}
+
+.navbar-brand {
+  text-decoration: none;
+}
+.navbar-brand:link {text-decoration:none;}
+.navbar-brand:visited {text-decoration:none;}
+.navbar-brand:hover {text-decoration:underline;}
+.navbar-brand:active {text-decoration:underline;}
 
 #board {
   width: 100%;
-  margin: 50px 0px auto;
+  margin: 35px 0px auto;
   text-align: center;
   background-color: #D1EEFC;
   min-height: 1000px;
@@ -31,21 +70,21 @@
 // }
 
 .stack {
-  width: 30%;
+  width: 28%;
   margin: 0px 1% auto;
   border: 5px;
   padding: 15px;
   text-align: left;
-  min-height: 900px;
+  min-height: 850px;
   background-color: #52EDC7;
   float: left;
 }
 
 .stack .card-list {
-  padding: 15px;
+  padding: 10px 10px 0px 10px;
   text-align: left;
   margin: 0px;
-  height: 100%;
+  min-height: 700px;
 }
 
 .stackCard {
@@ -53,7 +92,7 @@
   width: 100%;
   // border: 5%;
   padding: 5px;
-  margin: 10px auto;
+  margin: 10px  0px auto;
   height: 100px;
   // z-index:0;
   overflow-y: scroll;
@@ -72,7 +111,7 @@
 .stackCard .description {
   background-color: #F7F7F7;
   border: 2px solid #C7C7CC;
-  width: 100%;
-  height: 55px;
+  width: 96%;
+  height: 45px;
   padding: 5px;
 }
