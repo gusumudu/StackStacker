@@ -5,7 +5,7 @@ Stackstacker::Application.routes.draw do
 
   resources :boards
 
-  root 'boards#index'
+  root :to => "boards#show", :id => '1'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
