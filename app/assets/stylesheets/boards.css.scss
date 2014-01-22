@@ -12,8 +12,13 @@
 // }
 .navbar {
   background-color: #1AD6FD;
+  padding: 10px;
   // margin-bottom: 10px;
   // border-bottom: 10px;
+}
+
+body {
+  margin: 0px auto;
 }
 
 // .contianer {
@@ -41,6 +46,10 @@ a:hover {text-decoration:underline;
 background-color: none;}
 a:active {text-decoration:underline;
 background-color: none;}
+
+h5 {
+  margin: 5px 0px 5px 0px auto;
+}
 
 .navbar-brand {
   text-decoration: none;
