@@ -47,17 +47,17 @@ background-color: none;}
 a:active {text-decoration:underline;
 background-color: none;}
 
-h5 {
+h5.card-title {
   margin: 5px 0px 5px 0px auto;
 }
 
-.navbar-brand {
+a.navbar-brand {
   text-decoration: none;
 }
-.navbar-brand:link {text-decoration:none;}
-.navbar-brand:visited {text-decoration:none;}
-.navbar-brand:hover {text-decoration:underline;}
-.navbar-brand:active {text-decoration:underline;}
+a.navbar-brand:link {text-decoration:none;}
+a.navbar-brand:visited {text-decoration:none;}
+a.navbar-brand:hover {text-decoration:underline;}
+a.navbar-brand:active {text-decoration:underline;}
 
 #board {
   width: 100%;
