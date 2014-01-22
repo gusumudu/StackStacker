@@ -50,6 +50,10 @@ background-color: none;}
 h5.card-title {
   margin: 5px 0px 5px 0px auto;
 }
+h5 {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
 
 a.navbar-brand {
   text-decoration: none;
