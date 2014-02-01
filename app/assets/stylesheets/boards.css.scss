@@ -15,12 +15,14 @@
   padding: 10px;
   border-bottom: 1px solid #DBDDDE;
   opacity: 0.9;
+  width: 95%;
   // margin-bottom: 10px;
   // border-bottom: 10px;
 }
 
 body {
   margin: 0px auto;
+  // width: 99%;
 }
 
 // .contianer {
@@ -85,17 +87,18 @@ a.navbar-brand:hover {text-decoration:underline;}
 a.navbar-brand:active {text-decoration:underline;}
 
 #board {
-  width: 100%;
-  margin: 50px auto;
+  // width: 98%;
+  margin: 50px 0px 50px 0px;
   text-align: center;
   background-color: white;
   // min-height: 700px;
-  padding: 10px
+  padding: 10px 0px;
 }
 
 .board-header {
   text-align: center;
-  margin: 15px auto;
+  margin: 1.5% auto;
+  width: 95%;
   // border-left: 10px;
 }
 
