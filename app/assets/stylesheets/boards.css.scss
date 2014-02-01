@@ -11,8 +11,9 @@
 //   background-color: black;
 // }
 .navbar {
-  background-color: #1AD6FD;
+  background-color: white;
   padding: 10px;
+  border-bottom: 1px solid #DBDDDE;
   // margin-bottom: 10px;
   // border-bottom: 10px;
 }
@@ -24,11 +25,29 @@ body {
 // .contianer {
 //   color: #FF9500;
 // }
+.navbar-brand {
+  text-decoration:none;
+  background-color: none;
+  font-size: 30px;
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+  background-color: none;
+}
 
 .navbar-header {
   margin: 10px 0px 10px 0px;
   // color: #FF9500;
 }
+
+.navbar-brand:-webkit-any-link {
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+  // size
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -47,8 +66,9 @@ background-color: none;}
 a:active {text-decoration:underline;
 background-color: none;}
 
-h5.card-title {
+#card-title {
   margin: 5px 0px 5px 0px auto;
+  border-radius: 2px;
 }
 h5 {
   -webkit-margin-before: 0.5em;
@@ -65,16 +85,30 @@ a.navbar-brand:active {text-decoration:underline;}
 
 #board {
   width: 100%;
-  margin: 0px auto;
+  margin: 50px auto;
   text-align: center;
-  background-color: #D1EEFC;
-  min-height: 1000px;
+  background-color: white;
+  min-height: 700px;
   padding: 10px
 }
 
 .board-header {
   text-align: center;
-  margin: 10px auto;
+  margin: 15px auto;
+  // border-left: 10px;
+}
+
+.board-title {
+  float: left;
+  text-decoration: underline;
+  display: inline;
+}
+
+.board-name {
+  float: left;
+  display: inline;
+  // text-decoration: underline;
+
 }
 
 // .hold {
@@ -88,16 +122,17 @@ a.navbar-brand:active {text-decoration:underline;}
   border: 5px;
   padding: 15px;
   text-align: left;
-  min-height: 850px;
-  background-color: #52EDC7;
+  min-height: 550px;
+  background-color: #FCFBE3;
   float: left;
+  border-radius: 4px;
 }
 
 .stack .card-list {
   padding: 10px 10px 0px 10px;
   text-align: left;
   margin: 0px;
-  min-height: 700px;
+  min-height: 500px;
 }
 
 .stackCard {
@@ -108,9 +143,10 @@ a.navbar-brand:active {text-decoration:underline;}
   margin: 10px  0px auto;
   height: 100px;
   // z-index:0;
+  border-radius: 2px;
   overflow-y: scroll;
   box-shadow: 0px 0px 0px;
-  background-color: #E0F8D8;
+  background-color: #DBDDDE;
 }
 
 .stackCard span {
@@ -123,8 +159,15 @@ a.navbar-brand:active {text-decoration:underline;}
 
 .stackCard .description {
   background-color: #F7F7F7;
-  border: 2px solid #C7C7CC;
+  border: 1px solid black;
   width: 96%;
   height: 45px;
   padding: 5px;
+  border-radius: 2px;
+}
+
+#board-footer {
+  background-color: white;
+  padding: 15px;
+  border-top: 1px solid #DBDDDE;
 }

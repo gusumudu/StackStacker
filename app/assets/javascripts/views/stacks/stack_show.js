@@ -96,7 +96,7 @@ Stackstacker.Views.StacksShow = Backbone.View.extend({
   },
 
   addOneCard: function(card) {
-    console.log("adding card: " + card.get("name"));
+    // console.log("adding card: " + card.get("name"));
     var cardView = new Stackstacker.Views.CardsShow({ model: card });
     // start card in first stack
     this.$el.find("#stack-" + card.get("stack_id") + "-list").append(cardView.$el);
@@ -108,6 +108,7 @@ Stackstacker.Views.StacksShow = Backbone.View.extend({
     var stack = this;
     var new_card = new Stackstacker.Models.Card(stack.cardAttributes());
     new_card.save();
+    this.addOneCard(new_card);
     $("#card-title").val('');
   },
 

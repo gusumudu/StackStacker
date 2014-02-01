@@ -20,16 +20,19 @@ Stackstacker.Views.CardsShow = Backbone.View.extend({
     'blur .description' : 'leaveFocus',
     // drop card
     "drop" : "drop"
-
-
   },
 
   initialize: function() {
     this.listenTo(this.model, "change", this.render);
+    // this.listenTo(Stackstacker.Collections.Cards, "add", this.say_hello);
     this.listenTo(this.model, "destroy", this.removeCard);
 
     this.render();
   },
+
+  // say_hello: function() {
+  //   debugger;
+  // },
 
   render: function() {
     // console.log("rendering card");

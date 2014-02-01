@@ -13,3 +13,4 @@ Stackstacker.Collections.Cards = Backbone.Collection.extend({
   }
 
 });
+

@@ -24,7 +24,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button> -->
-          <a class="navbar-brand" href="#">StackStacker</a>
+          <a class="navbar-brand" href="/">StackStacker</a>
         </div>
         <!-- <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -43,9 +43,12 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-    <% if false %>
-      <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
-    <% end %>
     <%= yield :javascript_footer %>
+
+  <div id="board-footer">
+    <p>
+      <strong>Description:</strong> This is Stackstack. A trello clone and my first 'large' backbone.js project
+    </p>
+  </div>
   </body>
 </html>
