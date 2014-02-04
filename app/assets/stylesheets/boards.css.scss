@@ -1,7 +1,7 @@
 // Place all the styles related to the Boards controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 // #grayout {
 //   position: absolute;
 //   width: 100%;
@@ -13,7 +13,7 @@
 .navbar {
   background-color: white;
   padding: 10px;
-  border-bottom: 1px solid #DBDDDE;
+  // border-bottom: 1px solid #DBDDDE;
   opacity: 0.9;
   width: 95%;
   // margin-bottom: 10px;
@@ -22,6 +22,7 @@
 
 body {
   margin: 0px auto;
+  font-family: 'Raleway', sans-serif !important;
   // width: 99%;
 }
 
@@ -134,6 +135,7 @@ a.navbar-brand:active {text-decoration:underline;}
 
 .stack-name {
   border-bottom: 1px solid #DBDDDE;
+  text-align: center;
 }
 
 .stack .card-list {
@@ -183,4 +185,27 @@ a.navbar-brand:active {text-decoration:underline;}
   position: relative;
   bottom:0;
   margin-top: 20px;
+}
+
+#new-card {
+  // background-color: #E3E1B8;
+  // color:#FF0000;
+  font-size:1.5em;
+  padding:4px;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  // background-color: #FF5E3A;
+  // background-image: -moz-linear-gradient(top, #FF5E3A, #FF2A68);
+  // background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FF5E3A), to(#FF2A68));
+  // background-image: -webkit-linear-gradient(top, #FF5E3A, #FF2A68);
+  // background-image: -o-linear-gradient(top, #FF5E3A, #FF2A68);
+  // background-image: linear-gradient(to bottom, #FF5E3A, #FF2A68);
+  // background-repeat: repeat-x;
+  background-color: #55EFCB;
+  background-image: -moz-linear-gradient(top, #55EFCB, #5BCAFF);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#55EFCB), to(#5BCAFF));
+  background-image: -webkit-linear-gradient(top, #55EFCB, #5BCAFF);
+  background-image: -o-linear-gradient(top, #55EFCB, #5BCAFF);
+  background-image: linear-gradient(to bottom, #55EFCB, #5BCAFF);
+  background-repeat: repeat-x;
 }
